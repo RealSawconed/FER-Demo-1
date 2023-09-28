@@ -37,6 +37,14 @@ address {
     padding: 10px;
 }
 
+nav {
+    background: #512DA8;
+}
+
+.navbar-text {
+    cursor: pointer;
+}
+
 .carousel {
     background: #512DA8;
 }
