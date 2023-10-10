@@ -1,4 +1,14 @@
 $(document).ready(function () {
+    // Toggle Login modal when button is clicked
+    $("#loginlink").click(() => {
+        $("#loginModal").modal("show");
+    });
+
+    // Toggle Reserve modal when button is clicked
+    $("#reservebutton").click(() => {
+        $("#reserveform").modal("show");
+    });
+
     // $('[data-toggle="tooltip"]').tooltip();
 
     $("#mycarousel").carousel({ interval: 2000 });

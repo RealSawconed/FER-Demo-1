@@ -75,3 +75,23 @@ body {
     bottom: 0px;
     z-index: 1;
 }
+
+// Optional styling
+#loginlink {
+    cursor: pointer;
+}
+
+.modal-content {
+    .modal-header {
+        background-color: $background-dark;
+        color: $lt-gray;
+
+        button {
+            color: $lt-gray;
+        }
+    }
+
+    .modal-body {
+        background-color: $background-pale;
+    }
+}

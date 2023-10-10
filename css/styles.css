@@ -52,3 +52,15 @@ body {
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+#loginlink {
+  cursor: pointer; }
+
+.modal-content .modal-header {
+  background-color: #512DA8;
+  color: #DDD; }
+  .modal-content .modal-header button {
+    color: #DDD; }
+
+.modal-content .modal-body {
+  background-color: #D1C4E9; }
